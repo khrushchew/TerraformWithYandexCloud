@@ -2,7 +2,7 @@
 
 ## 1) Ошибки
 
-1. `required_version = "~>1.12.0"` - отсутствует пробел, исправлено на `required_version = "~> 1.15.0"`
+1. `required_version = "~>1.12.0"` - исправлено на `required_version = "~> 1.15.0"`
 2. `platform_id = "standart-v4"` - такого нет, исправлено на `platform_id = "standard-v1"`, а также изменена конфигурация по ядрам и ram, так как 1 не пропускал (allowed core number: 2, 4):
 
 ```hcl
