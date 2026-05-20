@@ -1,22 +1,46 @@
 # TerraformWithYandexCloud
-1) Ошибки: 1. required_version = "~>1.12.0" - отсутствует пробел, исправлено на required_version = "~> 1.15.0" 2. platform_id = "standart-v4" - такого нет, исправлено на platform_id = "standard-v1", а также изменена конфигурация по ядрам и ram, так как 1 не пропускал (allowed core number: 2, 4): resources {
-    cores         = 2
-    memory        = 2 }
-  <img width="1108" height="403" alt="image" src="https://github.com/user-attachments/assets/4490fc00-d151-412e-b7cb-275dd0edcfd3" />
-<img width="1537" height="125" alt="image" src="https://github.com/user-attachments/assets/612a3363-ca0c-4f6b-bb15-5ca45164b14c" />
-<img width="597" height="612" alt="image" src="https://github.com/user-attachments/assets/657ba53f-c634-43d6-92b8-228aa88eef19" />
-preemptible = true - прерываемая, экономим ресурсы, core_fraction = 5 - 5% от cpu, также экономим
 
-2) <img width="1034" height="483" alt="image" src="https://github.com/user-attachments/assets/019ea686-349f-4afd-9e13-0d8bda5117bd" />
+## 1) Ошибки
 
-3) <img width="1023" height="1279" alt="image" src="https://github.com/user-attachments/assets/69a45a11-d56f-4df8-8ac1-7c6503046b20" />
-<img width="1528" height="140" alt="image" src="https://github.com/user-attachments/assets/7938ee30-b560-4457-b4a9-479f98fa9360" />
+1. `required_version = "~>1.12.0"` - отсутствует пробел, исправлено на `required_version = "~> 1.15.0"`
+2. `platform_id = "standart-v4"` - такого нет, исправлено на `platform_id = "standard-v1"`, а также изменена конфигурация по ядрам и ram, так как 1 не пропускал (allowed core number: 2, 4):
 
-4) <img width="1217" height="1223" alt="image" src="https://github.com/user-attachments/assets/a33b4c40-bd7e-4c04-a356-91c5aae1fcad" />
-<img width="685" height="818" alt="image" src="https://github.com/user-attachments/assets/de8cc0d8-3871-4f67-9fc2-fb34833a0570" />
+```hcl
+resources {
+  cores         = 2
+  memory        = 2
+}
+```
 
-5)
-<img width="930" height="1277" alt="image" src="https://github.com/user-attachments/assets/1e50c09d-0bc7-4190-a340-c727799c55c7" />
+![image](https://github.com/user-attachments/assets/4490fc00-d151-412e-b7cb-275dd0edcfd3)
 
-6) 
-<img width="1028" height="1068" alt="image" src="https://github.com/user-attachments/assets/8aa6ee7b-53ce-4136-b539-1f01ca6aeca4" />
+![image](https://github.com/user-attachments/assets/612a3363-ca0c-4f6b-bb15-5ca45164b14c)
+
+![image](https://github.com/user-attachments/assets/657ba53f-c634-43d6-92b8-228aa88eef19)
+
+`preemptible = true` - прерываемая, экономим ресурсы
+`core_fraction = 5` - 5% от cpu, также экономим
+
+## 2)
+
+![image](https://github.com/user-attachments/assets/019ea686-349f-4afd-9e13-0d8bda5117bd)
+
+## 3)
+
+![image](https://github.com/user-attachments/assets/69a45a11-d56f-4df8-8ac1-7c6503046b20)
+
+![image](https://github.com/user-attachments/assets/7938ee30-b560-4457-b4a9-479f98fa9360)
+
+## 4)
+
+![image](https://github.com/user-attachments/assets/a33b4c40-bd7e-4c04-a356-91c5aae1fcad)
+
+![image](https://github.com/user-attachments/assets/de8cc0d8-3871-4f67-9fc2-fb34833a0570)
+
+## 5)
+
+![image](https://github.com/user-attachments/assets/1e50c09d-0bc7-4190-a340-c727799c55c7)
+
+## 6)
+
+![image](https://github.com/user-attachments/assets/8aa6ee7b-53ce-4136-b539-1f01ca6aeca4)
