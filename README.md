@@ -12,4 +12,11 @@ preemptible = true - прерываемая, экономим ресурсы, co
 3) <img width="1023" height="1279" alt="image" src="https://github.com/user-attachments/assets/69a45a11-d56f-4df8-8ac1-7c6503046b20" />
 <img width="1528" height="140" alt="image" src="https://github.com/user-attachments/assets/7938ee30-b560-4457-b4a9-479f98fa9360" />
 
-4) 
+4) <img width="1217" height="1223" alt="image" src="https://github.com/user-attachments/assets/a33b4c40-bd7e-4c04-a356-91c5aae1fcad" />
+<img width="685" height="818" alt="image" src="https://github.com/user-attachments/assets/de8cc0d8-3871-4f67-9fc2-fb34833a0570" />
+
+5)
+<img width="930" height="1277" alt="image" src="https://github.com/user-attachments/assets/1e50c09d-0bc7-4190-a340-c727799c55c7" />
+
+6) 
+<img width="1028" height="1068" alt="image" src="https://github.com/user-attachments/assets/8aa6ee7b-53ce-4136-b539-1f01ca6aeca4" />
